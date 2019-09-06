@@ -364,5 +364,5 @@ If your function becomes bloated requiring function code to be grouped into sepa
 
 ## Acknowledgements
 
-This document was written while I was working at [GRAAHO](http://www.graaho.com/) and was considered a must read for anyone who joins the team saving us few minutes of communicating the development ethics we follow.
+This document was written while I was working at [GRAAHO](https://www.graaho.com/) and was considered a must read for anyone who joins the team saving us few minutes of communicating the development ethics we follow.
 It is published under MIT licence, you can fork it to define your coding guidelines for your team.
