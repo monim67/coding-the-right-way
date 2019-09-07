@@ -17,7 +17,7 @@ The objective of this document is to raise developer awareness on coding convent
 
 ## Follow standard and conventions
 
-**Convension:** Convensions are ways to do specific task.  
+**Convention:** Conventions are ways to do specific task.  
 **Standard:** Standard is a convention which is:
 
   1. Prescribed by the language
@@ -43,7 +43,7 @@ quadrupedAnimal.BarkTwice();
 
 ### 2. Adopted by the community
 
-Python community has Pep8 specification for writing python applications:
+Python community has PEP 8 specification for writing python applications:
 
 - Classes/Types should be in titlecase, e.g `QuadrupedAnimal`
 - Variable & Function names should be in snakecase, e.g `animal_child.bark_twice()`
@@ -305,7 +305,7 @@ These are few points I always suggest my team to follow:
 
 - Don't use comment to describe your code, write self-explanatory code.
 - Don't use comment to back-up your code, use git instead.
-- Don't use comment to to mark bundaries, use an IDE instead.
+- Don't use comment to to mark boundaries, use an IDE instead.
 - Comments are meant to be READ by the developer, so write something HELPFUL.
 
 ### What case to use where no standard is defined
@@ -325,7 +325,7 @@ def add(a, b):
   """ Single NewLine before/after function """
   return a + b
 
-def substract(a, b):
+def subtract(a, b):
   """ Single NewLine before/after function """
   return a - b
 
@@ -340,12 +340,12 @@ class Math:
     """ Single NewLine before/after nested class """
     pass
 
-  def devide(a, b):
-    return a * b
+  def divide(a, b):
+    return a / b
 
 
 def splitting_function_codes_into_blocks():
-  """ Pep8 won't stop you from doing it, but should you? """
+  """ PEP 8 won't stop you from doing it, but should you? """
 
   first_number = 10
   second_number = 20
